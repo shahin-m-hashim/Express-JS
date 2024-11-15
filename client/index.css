@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  gap: 2rem;
+  color: #000;
+  padding: 3rem;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+button {
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #000;
+  font-family: sans-serif;
+}
