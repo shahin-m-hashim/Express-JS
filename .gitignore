@@ -1,5 +1,5 @@
 # folders
-server/node_modules
+*/node_modules
 
 # files
-server/.env
+*/.env

@@ -1,6 +1,6 @@
 function handleClick() {
   const result = document.getElementById("result");
-  fetch("http://localhost:8080/connect", { method: "GET" })
+  fetch("http://13.201.64.118/connect", { method: "GET" })
     .then((res) => res.json())
     .then((parsed) => {
       if (parsed.success) {
